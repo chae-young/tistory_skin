@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+# 커밋으로 버전 추출 -> release로 배포 요망.
 jobs:
   build:
     runs-on: ubuntu-latest
